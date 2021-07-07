@@ -10,7 +10,7 @@ public class ConectionFactory {
 	//Senha do banco 
 	private static final String PASSWORD = "123456";
 	//Link do banco
-	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/agenda?useTimezone=true&serverTimezone=UTC";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/Usuarios_Java?useTimezone=true&serverTimezone=UTC";
 	private static final String driver = "com.mysql.cj.jdbc.Driver";
 	
 	//Metodo que cria a conexão

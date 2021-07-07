@@ -1,6 +1,6 @@
 package Model;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Usuario {
 
@@ -12,9 +12,9 @@ public class Usuario {
 
 	private int Idade;
 
-	private LocalDateTime DataDCriacao;
+	private Date DataDCriacao;
 
-	private LocalDateTime UltimaAtualizacao;
+	private Date UltimaAtualizacao;
 
 	public int getId() {
 		return id;
@@ -48,19 +48,19 @@ public class Usuario {
 		Idade = idade;
 	}
 
-	public LocalDateTime getDataDCriacao() {
+	public Date getDataDCriacao() {
 		return DataDCriacao;
 	}
 
-	public void setDataDCriacao(LocalDateTime dataDCriacao) {
+	public void setDataDCriacao(Date dataDCriacao) {
 		DataDCriacao = dataDCriacao;
 	}
 
-	public LocalDateTime getUltimaAtualizacao() {
+	public Date getUltimaAtualizacao() {
 		return UltimaAtualizacao;
 	}
 
-	public void setUltimaAtualizacao(LocalDateTime ultimaAtualizacao) {
+	public void setUltimaAtualizacao(Date ultimaAtualizacao) {
 		UltimaAtualizacao = ultimaAtualizacao;
 	}
 
